@@ -51,7 +51,7 @@
     <Compile Include="DependencyInjectionConstructor.cs" />
     <Compile Include="DependencyInjectionProperty.cs" />
     <Compile Include="Dictionary.cs" />
-    <Compile Include="Fibonacci.cs" />
+    <Compile Include="SpecifcSolutions\Fibonacci.cs" />
     <Compile Include="ForLoop.cs" />
     <Compile Include="func.cs" />
     <Compile Include="Generics.cs" />
@@ -79,9 +79,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="InterViewPrep.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
